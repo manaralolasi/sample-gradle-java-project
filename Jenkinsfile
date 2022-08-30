@@ -5,9 +5,9 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         AWS_S3_BUCKET = "gradle-app"
         ARTIFACT_NAME = "sample-gradle-project.jar"
-        AWS_EB_APP_NAME = "Gradle-java-app"
+        AWS_EB_APP_NAME = "gg-app-new"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "Gradlejavaapp-env"
+        AWS_EB_ENVIRONMENT = "Ggappnew-env"
 
     }
     stages {
